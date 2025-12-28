@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="./auth.css">
+</head>
+<body>
+
+<div class="auth-container">
+    <h2>Create Account</h2>
+
+    <form action="/register" method="POST">
+        <div class="input-group">
+            <input type="text" name="name" required placeholder="Full Name">
+            
+        </div>
+
+        <div class="input-group">
+            <input type="email" name="email" required placeholder="Email">
+            
+        </div>
+
+        <div class="input-group">
+            <input type="text" name="mobileno" required   placeholder="Mobile Number">
+          
+        </div>
+
+        <div class="input-group">
+            <input type="password" name="password" required placeholder="Password">
+        
+        </div>
+
+        <button type="submit" class="btn">Register</button>
+    </form>
+
+    <p class="switch">
+        Already registered?
+        <a href="/login">Login here</a>
+    </p>
+</div>
+
+</body>
+</html>

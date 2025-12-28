@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.dashboard {
+  width: 400px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.logout {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background: #ff4d4d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.logout:hover {
+  background: #e60000;
+}
