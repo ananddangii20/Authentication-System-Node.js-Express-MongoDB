@@ -38,9 +38,6 @@ package.json
 
 Installation and Setup
 
-Clone the repository
-git clone https://github.com/your-username/authentication-system.git
-
 Navigate to the project folder
 cd authentication-system
 
